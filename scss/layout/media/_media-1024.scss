@@ -1,0 +1,34 @@
+@media (max-width:1024px){
+    header{
+        background-color: #430043;
+    }
+
+    main{
+        .tarjetas-regalitos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1%;
+        row-gap: 100px; 
+        }
+        .section-3{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .section-4{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            grid-template-columns: repeat(2,1fr); 
+        }
+        .section-5{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            grid-template-columns: repeat(2,1fr); 
+        }
+        .section-6{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            grid-template-columns: repeat(2,1fr); 
+        }
+    }
+}

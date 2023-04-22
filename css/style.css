@@ -1,0 +1,775 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: #43004E;
+}
+header .kitech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 60px;
+  position: relative;
+  top: -40px;
+  color: white;
+}
+header .busquedas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+header .busquedas div a {
+  color: rgb(57, 57, 235);
+  text-decoration: none;
+}
+header .vuelve-inicio {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+main {
+  background-color: #8600B5;
+}
+main .mas-buscados {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  padding-left: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .section-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: -50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: "Tilt Warp", cursive;
+}
+main .section-1 p {
+  font-size: 25px;
+}
+main .section-1 p a {
+  color: black;
+  text-decoration: none;
+}
+main .titulo-tarjetasregalo {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 160px;
+  letter-spacing: 2px;
+  padding-left: 2%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .tarjetas-regalitos {
+  font-family: "Tilt Warp", cursive;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 18% 1fr 18% 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 2%;
+  -webkit-column-gap: 18%;
+     -moz-column-gap: 18%;
+          column-gap: 18%;
+  padding-bottom: 2%;
+}
+main .tarjetas-regalitos p a {
+  color: black;
+  text-decoration: none;
+  font-family: "Tilt Warp", cursive;
+  font-size: 25px;
+}
+main .titulo-1 .titulo-juegos {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding-left: 2%;
+  letter-spacing: 2px;
+}
+main .titulo-1 .descripcion-titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-left: 2%;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+}
+main .section-3 {
+  font-family: "Roboto", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  -webkit-column-gap: 1%;
+     -moz-column-gap: 1%;
+          column-gap: 1%;
+  row-gap: 100px;
+  padding-left: 2%;
+}
+main .section-3 p a {
+  color: black;
+  text-decoration: none;
+  font-family: "Tilt Warp", cursive;
+  font-size: 25px;
+}
+main .section-4 {
+  font-family: "Roboto", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  -webkit-column-gap: 1%;
+     -moz-column-gap: 1%;
+          column-gap: 1%;
+  row-gap: 100px;
+  padding-left: 2%;
+}
+main .section-4 p a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Tilt Warp", cursive;
+}
+main .section-5 {
+  font-family: "Roboto", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  -webkit-column-gap: 1%;
+     -moz-column-gap: 1%;
+          column-gap: 1%;
+  row-gap: 100px;
+  padding-left: 2%;
+}
+main .section-5 p a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Tilt Warp", cursive;
+}
+main .section-6 {
+  font-family: "Roboto", sans-serif;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -ms-grid-columns: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+  grid-template-columns: repeat(5, 1fr);
+  -webkit-column-gap: 1%;
+     -moz-column-gap: 1%;
+          column-gap: 1%;
+  row-gap: 45px;
+  padding-left: 4%;
+}
+main .section-6 p a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Tilt Warp", cursive;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: whitesmoke;
+}
+footer .barrita-emojis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 1440px) {
+  main .section-1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    margin-top: 2%;
+    padding-left: 2%;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 50px;
+  }
+  main .tarjetas-regalitos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 70px;
+  }
+  main .section-3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .section-4 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .section-5 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+  main .section-6 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  header {
+    background-color: #430043;
+  }
+  main .tarjetas-regalitos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 100px;
+  }
+  main .section-3 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .section-4 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .section-5 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main .section-6 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .vuelve-inicio {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  main .titulo-juegos {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    color: rgb(250, 0, 208);
+    padding-left: 2%;
+    margin-top: 0px;
+  }
+  main .section-1 {
+    row-gap: 70px;
+  }
+  main .tarjetas-regalitos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 70px;
+  }
+  main .section-3 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 100px;
+    padding-left: 2%;
+  }
+  main .section-4 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 100px;
+    padding-left: 2%;
+  }
+  main .section-5 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 100px;
+    padding-left: 2%;
+  }
+  main .section-6 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr 1% 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 100px;
+    padding-left: 2%;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    background-color: #43004E;
+  }
+  header .kitech {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 20px;
+    padding-left: 60px;
+    position: relative;
+    top: -40px;
+    color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  header .busquedas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  header .vuelve-inicio {
+    color: white;
+    font-size: 45px;
+    text-decoration: none;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #8600B5;
+  }
+  main .titulo-1 .titulo-juegos {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 2%;
+    margin-top: 30px;
+  }
+  main .titulo-1 .descripcion-titulo {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+  }
+  main .titulo-tarjetasregalo {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .tarjetas-regalitos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .section-1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .section-2 {
+    font-family: "Tilt Warp", cursive;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 2%;
+       -moz-column-gap: 2%;
+            column-gap: 2%;
+    padding-left: 4%;
+    margin-top: 7%;
+    row-gap: 45px;
+  }
+  main .section-3 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 2%;
+  }
+  main .section-4 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 4%;
+  }
+  main .section-5 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 4%;
+  }
+  main .section-6 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 375px) {
+  header {
+    background-color: #43004E;
+  }
+  header .kitech {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    padding-left: 60px;
+    position: relative;
+    top: -40px;
+    color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .busquedas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-column-gap: 100px;
+       -moz-column-gap: 100px;
+            column-gap: 100px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  header .vuelve-inicio {
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: #8600B5;
+  }
+  main .titulo-1 .titulo-juegos {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-left: 2%;
+    margin-top: 30px;
+  }
+  main .titulo-1 .descripcion-titulo {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 3%;
+  }
+  main .mas-buscados {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding-left: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .section-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: -20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "Tilt Warp", cursive;
+    margin-top: 7%;
+    row-gap: 45px;
+  }
+  main .titulo-tarjetasregalo {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 160px;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .tarjetas-regalitos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  main .section-2 {
+    font-family: "Tilt Warp", cursive;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 2%;
+       -moz-column-gap: 2%;
+            column-gap: 2%;
+    padding-left: 4%;
+    margin-top: 7%;
+    row-gap: 45px;
+  }
+  main .section-3 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 2%;
+  }
+  main .section-4 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 4%;
+  }
+  main .section-5 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+    margin-top: 4%;
+  }
+  main .section-6 {
+    font-family: "Roboto", sans-serif;
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
+    -webkit-column-gap: 1%;
+       -moz-column-gap: 1%;
+            column-gap: 1%;
+    row-gap: 45px;
+    padding-left: 4%;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media (max-width: 320px) {
+  header {
+    background-color: #43004E;
+  }
+  main .section-1 {
+    max-width: 100%;
+  }
+}

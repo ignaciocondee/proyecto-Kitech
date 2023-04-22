@@ -1,0 +1,61 @@
+@media (max-width:768px){
+    .vuelve-inicio{
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+    }
+    main{
+        .titulo-juegos{
+            font-family: 'Roboto Slab', serif;
+            font-size: 30px;
+            color: rgb(250, 0, 208);
+            padding-left: 2%;
+            margin-top: 0px;
+        }
+        .section-1{
+            row-gap: 70px;
+        }
+        .tarjetas-regalitos{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1%;
+            row-gap: 70px;
+        }
+        .section-3{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1%;
+            row-gap: 100px;
+            padding-left: 2%;
+        }
+        .section-4{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1%;
+            row-gap: 100px;
+            padding-left: 2%;
+        }
+        .section-5{
+            font-family: 'Roboto', sans-serif;
+            display: grid;
+            width: 100%;
+            grid-template-columns: repeat(2,1fr);
+            column-gap: 1%;
+            row-gap: 100px;
+            padding-left: 2%;
+    }
+    .section-6{
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1%;
+        row-gap: 100px;
+        padding-left: 2%;
+    }     
+}
+}

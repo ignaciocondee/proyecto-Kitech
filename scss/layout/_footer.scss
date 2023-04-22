@@ -1,0 +1,14 @@
+footer{
+    background-color: $backgroundcolorfooter;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+
+    .barrita-emojis{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+

@@ -1,0 +1,128 @@
+@media (max-width:425px){
+    header{
+        background-color: $backgroundcolorheader;
+        .kitech{
+            display: flex;
+            flex-direction: row;
+            font-size: 20px;
+            padding-left: 60px;
+            position: relative;
+            top: -40px;
+            color: white;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .busquedas{
+            display: flex;
+            flex-direction: column;
+            font-family: 'Roboto', sans-serif;
+            font-size: 28px;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .vuelve-inicio{
+            color: white;
+            font-size: 45px;
+            text-decoration: none;
+        }
+    }
+
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: $backgroundcolormain;
+
+        .titulo-1{
+            .titulo-juegos{
+                font-family: 'Roboto Slab', serif;
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+                padding-left: 2%;
+                margin-top: 30px;
+            }
+        
+            .descripcion-titulo{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                font-weight: 700; 
+                letter-spacing: 2px;
+                padding-left: 2%;
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                margin-top: 3%;
+            }
+        }
+
+        .titulo-tarjetasregalo{
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .tarjetas-regalitos{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+            .section-1 {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+
+        
+        .section-2{
+            font-family: 'Tilt Warp', cursive;
+            width: 100%;
+            display: grid;
+            grid-template-columns:repeat(1, 1fr);
+            column-gap: 2%;
+            padding-left: 4%;
+            margin-top: 7%;
+            row-gap: 45px;
+    }
+    .section-3{
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 1%;
+        row-gap: 45px;
+        padding-left: 4%;
+        margin-top: 2%;
+    }
+    .section-4{
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 1%;
+        row-gap: 45px;
+        padding-left: 4%;
+        margin-top: 4%;
+    }
+    .section-5{
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 1%;
+        row-gap: 45px;
+        padding-left: 4%;
+        margin-top: 4%;
+    }
+    .section-6{
+        font-family: 'Roboto', sans-serif;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 1%;
+        row-gap: 45px;
+        padding-left: 4%;
+    }
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: $backgroundcolorfooter;
+    }
+}
